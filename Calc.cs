@@ -37,7 +37,7 @@ namespace Calculator2_Lexicon_Assignment
                 double sum = vals[0];
                 for (int i = 1; i < vals.Length; i++)
                 {
-                    sum = sum / vals[i];
+                    sum = sum / vals[i]; // Why does the last iteration equal 8 and not throw an exception?
                 }
                 return sum;
             } catch (DivideByZeroException ex)
