@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator2_Lexicon_Assignment
 {
-    internal class Calc
+    public static class Calc
     {
         public static double Addition(double[] vals)
         {
